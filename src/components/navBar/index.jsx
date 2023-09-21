@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { FaBars, FaReact } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import { HiX } from 'react-icons/hi';
+import './styles.scss';
 
 
 const data = [
@@ -43,16 +44,16 @@ const Navbar = () => {
     return (
         <div>
             <nav className="navbar">
-                <div className="navbar__container">
-                    <Link to={'/'} className="navbar__container_logo">
+                <div className="navbarContainer">
+                    <Link to={'/'} className="navbarContainerLogo">
                         <FaReact size={30} />
                     </Link>
                 </div>
-                <ul className="navbar__container__menu">
+                <ul className= {`navbarContainerMenu ${toggleIcon ? 'active' : '' } `}>
                     {
                         data.map((item) => (
-                            <li className="navbar__container__menu__item">
-                                <Link className="navbar__container__menu__item__links" to={item.to}>
+                            <li className="navbarContainerMenuItem">
+                                <Link className="navbarContainerMenuItemLinks" to={item.to}>
                                     {item.label}
                                 </Link>
                             </li>

@@ -12,7 +12,7 @@
         align-content: center;
 
         h1{
-            color: var(--yellow-theme-main-color);
+            color: var(--cyan-theme-main-color);
             margin: 0;
             font-weight: 500;
             font-size: 8rem;
@@ -34,13 +34,13 @@
             padding: 10px 70px;
             font-size: 2rem;
             background: transparent;
-            color: var(--yellow-theme-main-color);
-            border: 1.5px solid var(--yellow-theme-main-color);
+            color: var(--cyan-theme-main-color);
+            border: 1.5px solid var(--cyan-theme-main-color);
             border-radius: 4px;
             font-weight: 500;
 
             &:hover {
-                background: var(--yellow-theme-main-color);
+                background: var(--cyan-theme-main-color);
                 color: #000000;
             }
         }

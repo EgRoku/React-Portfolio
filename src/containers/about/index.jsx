@@ -23,7 +23,7 @@ const details = [
         value: 'jimenezjj5150@gmail.com',
     },
     {
-        label: 'contactNumber',
+        label: 'Contact Number',
         value: '1(909)894-6746',
     },
 ];

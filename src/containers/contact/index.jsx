@@ -62,8 +62,3 @@ const Contact = () => {
 }
 
 export default Contact;
-
-{/* <div className="footerWrapperIcons">
-        <SocialIcon className="" target="_blank" rel="noreferrer" url="https://github.com/EgRoku" />
-        <SocialIcon className="" url="https://www.linkedin.com/in/jorge-jimenez-558b89127/"/>
-      </div> */}

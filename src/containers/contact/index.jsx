@@ -25,7 +25,7 @@ const Contact = () => {
                         transform: 'translateX(0)'
                     }}
                 >
-                    <h3 className="contactContentHeaderText"> Contact Me! </h3>
+                    <h3 className="contactContentHeaderText"> Contact Me! (WIP) </h3>
                 </Animate>
                 <Animate
                     play

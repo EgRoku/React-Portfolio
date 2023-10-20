@@ -22,6 +22,10 @@ export const skillsData = [
                 skillName: 'SCSS',
                 percentage: '70',
             },
+            {
+                skillName: 'Handlebars',
+                percentage: '70',
+            },
         ],
     },
     {
@@ -40,11 +44,11 @@ export const skillsData = [
                 percentage: '90',
             },
             {
-                skillName: 'Handlebars',
-                percentage: '70',
+                skillName: 'MVC',
+                percentage: '80',
             },
             {
-                skillName: 'JWT',
+                skillName: 'RESTful API',
                 percentage: '80',
             },
         ],

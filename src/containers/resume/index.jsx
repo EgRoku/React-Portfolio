@@ -100,6 +100,9 @@ const Resume = () => {
                         </VerticalTimeline>
                 </div>
             </div>
+            <span className="footerText">
+                 Download My Resume <a href="https://drive.google.com/file/d/1hworo0I4Q5VgSD5SikJVkKHL4znJLrW7/view?usp=sharing" rel="noreferrer"> Here </a>
+            </span>
 
         </section>
     )

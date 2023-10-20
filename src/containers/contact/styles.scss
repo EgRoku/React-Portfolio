@@ -105,6 +105,11 @@
     }
 }
 
+.socialIcons {
+    display: flex;
+    justify-content: center;
+}
+
 @media only screen and (max-width: 768px) {
     .contactContentForm {
         text-align: center;

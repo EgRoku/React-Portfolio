@@ -86,7 +86,7 @@ const About = () => {
                         duration={1.5}
                         delay={1}
                         start={{
-                            transform: 'translateX(600px)'
+                            transform: 'translateX(800px)'
                         }}
                         end={{
                             transform: 'translateX(0px)'

@@ -28,97 +28,97 @@ const portfolioData = [
         id: 3,
         name: 'Scorsteezy',
         image: scorsteezy,
-        link: 'https://scorsteezy-a5a23fdb1369.herokuapp.com/'
+        link: 'https://scorsteezy-a5a23fdb1369.herokuapp.com/',
     },
     {
         id: 3,
         name: 'Dagobah Depot',
         image: dagobahDepot,
-        link: ''
+        link: 'https://dagobah-depot-34081fe1df5e.herokuapp.com/',
     },
     {
         id: 3,
         name: 'Filmify',
         image: filmify,
-        link: ''
+        link: 'https://eliasjrivera.github.io/Filmify/',
     },
     {
         id: 2,
         name: 'Book Search',
         image: bookSearch,
-        link: ''
+        link: 'https://github.com/EgRoku/bookSearchEngine',
     },
     {
         id: 2,
         name: 'Ecommerce',
         image: ecommerce,
-        link: ''
+        link: 'https://github.com/EgRoku/E-Commerce-Back-End',
     },
     {
         id: 2,
         name: 'Employee Tracker',
         image: employeeTracker,
-        link: ''
+        link: 'https://github.com/EgRoku/Employee-Tracker',
     },
     {
         id: 2,
         name: 'Note Taker',
         image: notes,
-        link: ''
+        link: 'https://github.com/EgRoku/Note-Taker',
     },
     {
         id: 2,
         name: 'Password Generator',
         image: passwordGenerator,
-        link: ''
+        link: 'https://egroku.github.io/Password-Generator/',
     },
     {
         id: 2,
         name: 'Code Quiz',
         image: quiz,
-        link: ''
+        link: 'https://egroku.github.io/Web-API-Quiz-Redux/',
     },
     {
         id: 2,
         name: 'Read me Generator',
         image: readMe,
-        link: ''
+        link: 'https://github.com/EgRoku/GenerateThyReadMe',
     },
     {
         id: 2,
         name: 'Social network API',
         image: socialApi,
-        link: ''
+        link: 'https://github.com/EgRoku/social-network-api',
     },
     {
         id: 2,
         name: 'SVG Logo Maker',
         image: svgLogo,
-        link: ''
+        link: 'https://github.com/EgRoku/SVG-Logo-Maker',
     },
     {
         id: 3,
         name: 'Tech Spot',
         image: techSpot,
-        link: ''
+        link: 'https://tech-spot-app-b7a85ed7734a.herokuapp.com/',
     },
     {
         id: 2,
         name: 'JATE',
         image: textEditor,
-        link: ''
+        link: 'https://github.com/EgRoku/JATE',
     },
     {
         id: 3,
         name: 'Whether Weather',
         image: weatherApp,
-        link: ''
+        link: 'https://egroku.github.io/Weather-App/',
     },
     {
         id: 2,
         name: 'Work Day Scheduler',
         image: workDay,
-        link: ''
+        link: 'https://egroku.github.io/Work-Day-Scheduler/',
     },
 ]
 
@@ -186,7 +186,7 @@ const Portfolio = () => {
                                 onMouseLeave={() => handleHover(null)}
                             >
                                 <div className="portfolioContentCardsItemImgWrapper">
-                                    <a>
+                                    <a href={item.link}>
                                         <img alt='bottom text' src={item.image} />
                                     </a>
                                 </div>
@@ -195,7 +195,10 @@ const Portfolio = () => {
                                         index === hoveredValue && (
                                             <div>
                                                 <p>{item.name}</p>
-                                                <button>Visit</button>
+                                                <a href={item.link}>
+                                                    <button>Visit</button>
+                                                </a>
+        
                                             </div>
                                         )
                                     }

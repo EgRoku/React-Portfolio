@@ -43,6 +43,10 @@ export const skillsData = [
                 skillName: 'Handlebars',
                 percentage: '70',
             },
+            {
+                skillName: 'JWT',
+                percentage: '80',
+            },
         ],
     },
     {
@@ -54,7 +58,11 @@ export const skillsData = [
             },
             {
                 skillName: 'MongoDb',
-                percentage: '70',
+                percentage: '80',
+            },
+            {
+                skillName: 'GraphQl',
+                percentage: '80',
             },
         ],
     },

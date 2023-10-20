@@ -1,7 +1,6 @@
 import React from "react";
 import { BsInfoCircleFill } from 'react-icons/bs';
 import PageHeaderContent from "../../components/pageHeaderContent";
-import { SocialIcon } from "react-social-icons";
 import { Animate } from "react-simple-animate";
 import './styles.scss';
 

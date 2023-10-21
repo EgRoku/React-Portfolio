@@ -51,15 +51,15 @@ const Navbar = () => {
                 </div>
                 <ul className= {`navbarContainerMenu ${toggleIcon ? 'active' : '' } `}>
                     {
-                        data.map((item) => (
-                            <li className="navbarContainerMenuItem">
+                        data.map((item, key) => (
+                            <li key={key} className="navbarContainerMenuItem">
                                 <Link className="navbarContainerMenuItemLinks" to={item.to}>
                                     {item.label}
                                 </Link>
                             </li>
                         ))
                     }
-                </ul>
+                </ul>                
                 <div className="nav-icon" onClick={handleToggleIcon}>
                     {
                         toggleIcon ? <HiX size={30} /> : <FaBars size={30} />

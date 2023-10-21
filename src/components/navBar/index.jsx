@@ -53,7 +53,7 @@ const Navbar = () => {
                     {
                         data.map((item, key) => (
                             <li key={key} className="navbarContainerMenuItem">
-                                <Link className="navbarContainerMenuItemLinks" to={item.to}>
+                                <Link className="navbarContainerMenuItemLinks"  to={item.to} onClick={toggleIcon}>
                                     {item.label}
                                 </Link>
                             </li>
